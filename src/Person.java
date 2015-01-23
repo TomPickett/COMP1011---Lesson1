@@ -2,6 +2,7 @@
 		private float height;
 		private float weight;
 		private String name;
+		private int IQ; 
 	
 	    //getters
 		public float getHeight() {
