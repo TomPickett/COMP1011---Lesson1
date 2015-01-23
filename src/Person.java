@@ -1,10 +1,24 @@
 	public class Person {
-		float height;
-		float weight;
+		private float height;
+		private float weight;
 	
+		/**
+		 * @return the height
+		 */
+		public float getHeight() {
+			return height;
+		}
+
+		/**
+		 * @param height the height to set
+		 */
+		public void setHeight(float height) {
+			this.height = height;
+		}
+
 		//Constructor
 		public Person() {
-			this.height = 6;
+			this.setHeight(6);
 			this.weight = 200;
 		}
 		
@@ -15,7 +29,7 @@
 		}
 		
 		public void eats() {
-			this.weight *= 1.20;
+			this.weight *= 1.2;
 			System.out.println("You gained weight!");
 			System.out.println("You weight: " + this.weight);
 		}
