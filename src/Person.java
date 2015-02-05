@@ -9,6 +9,9 @@
 			return height;
 		}
 
+		public int getIQ() {
+			return IQ;
+		}
 		//setters
 		public void setHeight(float height) {
 			this.height = height;
@@ -32,5 +35,5 @@
 			System.out.println(this.name + " gained weight!");
 			System.out.println(this.name + " weighs: " + this.weight);
 		}
-		
-	}
+
+		}
